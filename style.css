@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-inline: 350px;
+    border-radius: 20px;
+    background-color: #3b665b;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3b665b;
+    margin-inline: 500px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+button img {
+    width: 20px;
+}
