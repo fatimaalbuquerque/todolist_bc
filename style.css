@@ -28,6 +28,13 @@ main {
     padding: 20px;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #item {
     display: flex;
     justify-content: center;
@@ -35,6 +42,28 @@ main {
     height: 30px;
 }
 
+ul {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
 button img {
     width: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: wheat;
+}
+
+ul {
+    color: white;
 }

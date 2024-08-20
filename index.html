@@ -8,8 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-<body>
+<body onload="init()">
     <header>
         <h1>To do List</h1>
     </header>
@@ -17,42 +18,18 @@
     <main>
         <section id="item">
             <input type="text" placeholder="Adicione uma tarefa">
-            <button>
+            <button onclick="init()">
                 <img src="imgs/add.png" alt="">
             </button>
         </section>
 
         <section id="pendente">  <h2>Atividades pendentes</h2>
-            <li>
-                <ul><input type="checkbox"> Atividade 1</ul>
+            <ul id="tasklist">
+                <li><input type="checkbox"> Atividade 1</li>
                 <button>
                     <img src="imgs/lapis-removebg-preview.png" alt="lápis editor">
                 </button>
-                <button>
-                    <img src="imgs/lixeira.png" alt="lixeira apagadora">
-                </button>
-                <ul><input type="checkbox"> Atividade 2</ul>
-                <button>
-                    <img src="imgs/lapis-removebg-preview.png" alt="lápis editor">
-                </button>
-                <button>
-                    <img src="imgs/lixeira.png" alt="lixeira apagadora">
-                </button>
-                <ul><input type="checkbox"> Atividade 3</ul>
-                <button>
-                    <img src="imgs/lapis-removebg-preview.png" alt="lápis editor">
-                </button>
-                <button>
-                    <img src="imgs/lixeira.png" alt="lixeira apagadora">
-                </button>
-                <ul><input type="checkbox"> Atividade 4</ul>
-                <button>
-                    <img src="imgs/lapis-removebg-preview.png" alt="lápis editor">
-                </button>
-                <button>
-                    <img src="imgs/lixeira.png" alt="lixeira apagadora">
-                </button>
-            </li>
+            </ul>
       
         </section>
 
